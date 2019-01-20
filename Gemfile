@@ -2,6 +2,6 @@
 
 source 'https://rubygems.org'
 
-gem 'github-pages'
+gem 'github-pages', group: :jekyll_plugins
 gem 'reverse_markdown'
-gem 'jekyll-redirect-from'
+gem 'rake', group: :test
