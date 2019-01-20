@@ -1,0 +1,299 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: Georgia, serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+a > img {
+  border: none;
+}
+
+#wrapper {
+  margin: 0 auto 4rem;
+  max-width: 740px;
+}
+
+nav {
+  margin: 4rem 2rem;
+  overflow: hidden;
+}
+
+#rails-logo {
+  display: block;
+  float: left;
+}
+
+nav ul {
+  float: right;
+  font-size: 1.4rem;
+  list-style: none;
+  margin: 2.3rem 0 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0 0 3rem;
+}
+
+nav ul li a {
+  border-bottom: 0.2rem solid #cc0000;
+  color: #cc0000;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  border-bottom: 0.2rem solid #000000;
+  color: #000000;
+}
+
+main {
+  margin: 0 2rem;
+}
+
+article {
+  margin: 2rem 0 4rem;
+}
+
+article header {
+  margin: 0 0 0.5rem 0;
+}
+
+article header h2 {
+  font-weight: normal;
+  font-size: 3.4rem;
+  line-height: 3.8rem;
+  margin-bottom: 0;
+}
+
+article header h2 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+article header h2 a:hover {
+  text-decoration: underline;
+}
+
+article header p {
+  color: #777777;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+article header p a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+article header p a:hover {
+  text-decoration: underline;
+}
+
+article section {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+article section h2 {
+  font-size: 2.4rem;
+  margin: 2rem 0 1rem;
+}
+
+article section h3 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 1rem 0 0.5rem 0;
+}
+
+article section p {
+  font-size: 2rem;
+  margin: 0 0 1.5rem 0;
+}
+
+article section ul, article section ol {
+  margin: 0.5em 0 1.5rem 0;
+  padding: 0 0 0 2.5rem;
+}
+
+article section li {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+
+article section a {
+  color: #cc0000;
+  text-decoration: none;
+}
+
+article section a:hover {
+  text-decoration: underline;
+}
+
+article section img {
+  max-width: 100%;
+}
+
+article section pre {
+  background-color: #eeeeee;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin: 2rem 0;
+  overflow: auto;
+  padding: 1.5rem 2rem !important;
+}
+
+article section code, article section tt {
+  font-family: Courier New, Courier, mono;
+}
+
+article section p code, article section p tt {
+  color: #666666;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+article section pre code {
+  color: #666666;
+  font-size: 1.5rem;
+}
+
+article section blockquote {
+  margin: 1rem 2rem;
+}
+
+article section twitterwidget + p,
+article section iframe + p {
+  margin-top: 1.5rem;
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  padding: 16px;
+  margin: 0 0 1.5em 0;
+  max-width: 468px;
+  border: #ddd 1px solid;
+  border-top-color: #eee;
+  border-bottom-color: #bbb;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+  font: bold 14px/18px Helvetica, Arial, sans-serif;
+  color: #000;
+}
+
+blockquote.twitter-tweet p {
+  font: normal 18px/24px Georgia, "Times New Roman", Palatino, serif;
+  margin: 0 5px 10px 0;
+}
+
+blockquote.twitter-tweet a[href^="https://twitter.com"] {
+  font-weight: normal;
+  color: #666;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 640px) {
+  nav {
+    margin: 2rem 2rem 3rem;
+  }
+
+  nav ul li {
+    margin: 0 2rem 0 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  nav {
+    margin: 2rem 1.5rem 1rem;
+  }
+
+  #rails-logo {
+    float: none;
+  }
+
+  nav ul {
+    float: none;
+    margin: 1.5rem 0 0.5rem;
+  }
+
+  nav ul li {
+    margin: 0 2rem 0 0;
+  }
+
+  main {
+    margin: 0 1.5rem;
+  }
+
+  article {
+    margin: 1.5rem 0 3rem;
+  }
+
+  article header h2 {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  article section {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  article section h2 {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+
+  article section h3 {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+
+  article header p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0.25rem 0;
+  }
+
+  article section p {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+    margin: 0 0 1.5rem 0;
+  }
+
+  article section ul, article section ol {
+    margin: 0.5em 0 1.5rem 0;
+    padding: 0 0 0 2.1rem;
+  }
+
+  article section li {
+    font-size: 1.6rem;
+    line-height: 2.1rem;
+  }
+
+  article section blockquote {
+    margin: 0.5rem 1.5rem;
+  }
+
+  article section pre {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin: 1rem 0;
+    overflow: auto;
+    padding: 0.7rem 1rem !important;
+  }
+
+  article section pre code {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+{% include head.html %}
+{% include google.html %}
+  </head>
+  <body>
+    <div id="wrapper">
+      {% include navigation.html %}
+      <main>
+<!-- Begin Content -->
+        <article>
+          <header>
+            <h2>
+              <a href="{{ page.url }}" rel="bookmark">{{ page.title | escape }}</a>
+            </h2>
+            <p>
+              Diposting oleh <span class="vcard"><span class="fn">{{ page.author }}</span></span>,
+              <span class="published" title="{{ page.date | date_to_xml_schema }}">{{ page.date | date: "%B %-d, %Y @ %l:%M %P" }}</span>
+              {% if page.categories.size > 0 %}
+                <span class="categories">di kategori
+              {% for category in page.categories %}
+              {% if forloop.last %}
+                <a href="/{{ category }}/" rel="category tag">{{ category | capitalize }}</a>
+              {% else %}
+                <a href="{{ category }}" rel="category tag">{{ category | capitalize }}</a>,
+              {% endif %}
+              {% endfor %}
+              </span>
+              {% endif %}
+              <br>
+              Diterjemahkan oleh <span class="translator">{{ page.translator }}</span>
+            </p>
+          </header>
+          <section>
+<!-- Begin Post -->
+{{ content }}
+<!-- End Post -->
+          </section>
+        </article>
+<!-- End Content -->
+      </main>
+    </div>
+  </body>
+</html>
