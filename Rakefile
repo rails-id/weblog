@@ -1,23 +1,61 @@
-task :new_page do
-  name = ENV['POSTNAME']
+# frozen_string_literal: true
 
-  abort "rake new_page POSTNAME=\"whatever\"" unless name
+namespace :new do
+	desc "Membuat postingan baru"
+	task :post do
+	  name = ENV["TITLE"]
 
-  slug = name.gsub(/[^\w\d]/, '-').gsub(/--/, '-')
-  now = Time.now
-  date = now.strftime("%Y-%m-%d")
-  File.open("_posts/#{date}-#{slug}.markdown", 'w') do |f|
-    f.write <<-eoblog
+	  abort "rake new_page TITLE=\"whatever\"" unless name
+
+	  slug = name.gsub(/[^\w\d]/, '-').gsub(/--/, '-')
+	  now = Time.now
+	  date = now.strftime("%Y-%m-%d")
+	  File.open("_posts/#{date}-#{slug}.markdown", 'w') do |f|
+	    f.write <<-NEWPOST
 ---
 layout: post
-title: '#{name}'
+title: "#{name}"
 categories: #
-author: Your Name
-translator: Your Name
+author: Nama asli yang ada di weblog.rubyonrails.org
+translator: Nama Kamu
 published: true
 date: #{now.strftime("%Y-%m-%d %H:%M:%S %:z")}
 ---
-Your post content in HTML, Textile or Markdown format
-    eoblog
-  end
+Konten posting dalam format HTML, Textile, atau Markdown. Direkomendasikan menggunakan Markdown (.md, .markdown)
+    NEWPOST
+	  end
+	end
 end
+
+desc "Bantuan"
+task :help do
+  puts <<HELP
+Semua proses ini ditangani oleh rake, berikut daftar lengkapnya:
+
+#{%x[rake -T]}
+
+Contoh:
+  $ rake new:post TITLE="Judul Postingan"
+
+Panduan dasar untuk jekyll:
+  Untuk build sumber kode:
+  $ jekyll build
+
+  Untuk melihat hasil build:
+  $ jekyll serve
+
+
+Panduan lengkap untuk jekyll:
+
+###########################################################################################
+#{%x[jekyll -h]}
+###########################################################################################
+
+
+Referensi
+- https://github.com/github/pages-gem
+
+HELP
+end
+
+task default: "help"
