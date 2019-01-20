@@ -99,6 +99,7 @@ layout: post
 title: "#{goodbits_email.title}"
 categories: news
 author: #{goodbits_email.author}
+translator: Nama Kamu
 published: true
 date: #{date.to_s}
 ---
