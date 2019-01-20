@@ -1,52 +1,52 @@
-## Steps to publish a Riding Rails article
+## Langkah-langkah untuk menerbitkan artikel
 
-1. Clone the weblog repository
-
-    ``` bash
-    $ git clone git@github.com:rails/weblog.git
-    ```
-
-2. Checkout the gh-pages branch
+1. Clone repositori weblog.
 
     ``` bash
-    $ cd weblog && git checkout gh-pages
+    $ git clone git@github.com:rails-id/weblog.git
     ```
 
-3. Create a post in the `_posts` directory with the date and permalink in the name
+2. Buat posting di direktori `_posts` disertai tanggal dan permalink.
 
     ``` bash
-    $ vi _posts/YYYY-MM-DD-permalink.format
+    $ vi _posts/YYYY-MM-DD-permalink.md
     ```
 
-4. Write your post
+    atau kalian bisa melihat contoh di rake
+
+    ``` bash
+    $ rake
+    ```
+
+3. Tulis posting kalian.
 
     ``` yaml
     ---
     layout: post
     title: Your post title
     categories: [Releases,Edge]
-    author: Your Name
+    author: Nama yang ada di weblog.rubyonrails.org jika mengambil dari sumber eksternal
+    translator: Nama Kamu
     published: true
-    date: 2012-03-07 19:22:00 +00:00
+    date: 2019-01-01 01:01:00 +07:00
     ---
-    Your post content in HTML, Textile or Markdown format
+    Konten posting dalam format Markdown. Direkomendasikan menggunakan Markdown (.md, .markdown) dan hindari penulisan HTML kecuali ada sesuatu yang ingin di embed
     ```
 
-5. Commit and push
+4. Commit dan push.
 
     ``` bash
-    $ git add . && git commit -m 'My commit message' && git push
+    $ git add . && git commit -m "Pesan commit yang diinginkan" && git push
     ```
 
-6. There is no step six - GitHub will rebuild the `_site` directory
+5. Tidak ada langkah selanjutnya, nanti akan ter-deploy secara otomatis.
 
-## Contribution Guidelines
+## Pedoman Kontribusi
 
-1. When embedding an image, make a copy in the /assets directory if possible.
+1. Jika ingin memasukkan gambar, buat salinan di direktori `assets` jika memungkinkan.
 
-2. When adding a new category, add the category index page as well.
+2. Jika ingin menambahkan kategori baru, tambahkan halaman indeks kategori juga.
 
-3. Try to avoid using of inline style definitions as they make redesigning harder in the future.
+3. Hindari penggunaan definisi atau kata dalam satu baris.
 
-4. Use `<h2>` tags (## in Markdown) for red headings and `<h3>` tags (### in Markdown) 
-   for black headings - do not use a single line paragraph with bold text as the margin spacing will be incorrect.
+4. Jika kalian kurang paham penggunakan Markdown silakan bisa dipejari disini https://guides.github.com/features/mastering-markdown/
