@@ -5,6 +5,10 @@ exclude:
   - Gemfile.lock
   - README.md
   - CNAME
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - HOWTO.md
+  - Rakefile
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
 category_dir: ""
