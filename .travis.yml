@@ -17,7 +17,7 @@ before_install:
 install:
 - travis_retry gem update --system
 - travis_retry gem update
-- travis_retry bundle install
+- travis_retry bundle update --bundler
 - jekyll build
 branches:
   only:
