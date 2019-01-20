@@ -15,13 +15,13 @@ namespace :new do
 ---
 layout: post
 title: "#{name}"
-categories: #
-author: Nama asli yang ada di weblog.rubyonrails.org
+categories: 
+author: Nama yang ada di weblog.rubyonrails.org jika mengambil dari sumber eksternal
 translator: Nama Kamu
 published: true
 date: #{now.strftime("%Y-%m-%d %H:%M:%S %:z")}
 ---
-Konten posting dalam format HTML, Textile, atau Markdown. Direkomendasikan menggunakan Markdown (.md, .markdown)
+Konten posting dalam format Markdown. Direkomendasikan menggunakan Markdown (.md, .markdown) dan hindari penulisan HTML kecuali ada sesuatu yang ingin di embed
     NEWPOST
 	  end
 	end
