@@ -9,22 +9,22 @@ Repositori ini menghasilkan apa yang ada di situs web [weblog.rails.id](http://w
 
 ##### Tidak lupa untuk bundle sumber Gemfile:
 ```
-bundle install
+$ bundle install
 ```
 
 ##### Untuk build sumber kode:
 ```
-jekyll build
+$ jekyll build
 ```
 
 ##### Untuk melihat hasil build:
 ```
-jekyll serve
+$ jekyll serve
 ```
 
 ##### Selengkapnya kalian bisa melihat di rake:
 ```
-rake
+$ rake
 ```
 
 ## Kontribusi
@@ -36,13 +36,13 @@ Jika Anda melihat kesalahan pengejaan atau penanda versi terbaru tidak sinkron, 
 Bagi member organisasi Ruby on Rails Indonesia bisa kontribusi langsung di remote `git@github.com:rails-id/weblog.git`
 
 ```
-git clone git@github.com:rails-id/weblog.git
+$ git clone git@github.com:rails-id/weblog.git
 ```
 
 Dan bagi yang non member Ruby on Rails Indonesia diharuskan untuk fork repositori, dan melakukan pull request
 
 ```
-git clone git@github.com:$USERNAME/$NAME_OF_REPOSITORY.git
+$ git clone git@github.com:$USERNAME/$NAME_OF_REPOSITORY.git
 ```
 
 Selengkapnya bisa dilihat di [Kontribusi](CONTRIBUTING.md) dan diharapkan untuk mengikuti [Kode Etik](CODE_OF_CONDUCT.md).
