@@ -8,6 +8,7 @@ rvm:
 cache: bundler
 addons:
   ssh_known_hosts:
+    - $SERVER_IP_ADDRESS
     - $SERVER_IP_ADDRESS:$PORT
 before_install:
   - openssl aes-256-cbc -K $encrypted_f67b6afe4205_key -iv $encrypted_f67b6afe4205_iv
