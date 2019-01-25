@@ -45,4 +45,4 @@
 - Jika ingin memasukkan gambar, buat salinan di direktori `assets` jika memungkinkan.
 - Jika ingin menambahkan kategori baru, tambahkan halaman indeks kategori juga.
 - Hindari penggunaan definisi atau kata dalam satu baris.
-- Jika kalian kurang paham penggunakan Markdown silakan bisa dipejari disini https://guides.github.com/features/mastering-markdown/
+- Jika kalian kurang paham penggunakan Markdown silakan bisa pelajari di [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
