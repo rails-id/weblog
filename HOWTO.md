@@ -11,15 +11,13 @@
     ``` bash
     $ vi _posts/YYYY-MM-DD-permalink.md
     ```
-    atau bisa gunakan text editor favorit kalian
-
-    tentang perintah lainnya kalian bisa lihat di rake
+    tentang perintah lainnya kalian bisa lihat di perintah rake
 
     ``` bash
     $ rake
     ```
 
-- Selanjutnya lengkapi postingan di file yang baru saja ditambahkan.
+- Selanjutnya lengkapi postingan di file yang baru saja ditambahkan dan gunakan text editor favorit kalian.
 
     ``` markdown
     ---
