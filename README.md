@@ -48,7 +48,7 @@ $ git clone git@github.com:$USERNAME/$NAME_OF_REPOSITORY.git
 Selengkapnya bisa lihat di [Kontribusi](CONTRIBUTING.md) dan diharapkan untuk mengikuti [Kode Etik](CODE_OF_CONDUCT.md).
 
 ## Menerbitkan Artikel
-Untuk dapat menerbitkan artikel kalian bisa baca panduannya di [HOWTO.md](HOWTO.md)
+Untuk dapat menerbitkan artikel kalian bisa baca panduannya di [GUIDELINES.md](GUIDELINES.md)
 
 ## Referensi
 - [github.com/github/pages-gem](https://github.com/github/pages-gem)

@@ -11,7 +11,7 @@ exclude:
   - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - HOWTO.md
+  - GUIDELINES.md
   - Rakefile
   - deploy_key
   - deploy_key.enc
