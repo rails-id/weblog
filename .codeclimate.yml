@@ -26,5 +26,4 @@ exclude_patterns:
   - LICENSE
   - Rakefile
 
-  - assets/*
-  - images/*
+  - assets/images/*
