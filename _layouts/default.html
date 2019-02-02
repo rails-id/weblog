@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="id">
   <head>
-{% include head.html %}
-{% include google_analytics.html %}
+    {% include head.html %}
+    {% if jekyll.environment == "production" %}
+      {% include google_analytics.html %}
+    {% endif %}
   </head>
   <body class="index">
     <div id="wrapper">
