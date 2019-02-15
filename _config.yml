@@ -5,6 +5,9 @@ plugins:
   - jekyll-sitemap
   - jemoji
 exclude:
+  - .github
+  - .idea
+  - .vscode
   - Gemfile
   - Gemfile.lock
   - README.md
