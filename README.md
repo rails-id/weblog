@@ -46,8 +46,8 @@ $ jekyll serve
 $ rake
 ```
 
-## Kontribusi
 
+## Kontribusi
 Jika kalian melihat kesalahan pengejaan atau versi terbaru tidak sinkron, silakan untuk berkontribusi.
 
 Bagi member organisasi Ruby on Rails Indonesia bisa kontribusi langsung di remote `git@github.com:rails-id/weblog.git`
@@ -64,12 +64,14 @@ $ git clone git@github.com:$USERNAME/$NAME_OF_REPOSITORY.git
 
 Selengkapnya bisa lihat di [Kontribusi](CONTRIBUTING.md) dan diharapkan untuk mengikuti [Kode Etik](CODE_OF_CONDUCT.md).
 
+
 ## Menerbitkan Artikel
 Untuk dapat menerbitkan artikel kalian bisa baca panduannya di [GUIDELINES.md](GUIDELINES.md)
+
 
 ## Referensi
 - [github.com/github/pages-gem](https://github.com/github/pages-gem)
 
-## Lisensi
 
+## Lisensi
 Ruby on Rails Indonesia dirilis di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
