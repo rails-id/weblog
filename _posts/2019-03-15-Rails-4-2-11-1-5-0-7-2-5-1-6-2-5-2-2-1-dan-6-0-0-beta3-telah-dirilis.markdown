@@ -33,7 +33,7 @@ Kami telah melakukan yang terbaik untuk meminimalkan dampak pada aplikasi Kamu, 
 [ajukan tiket](https://github.com/rails/rails/issues) dan kami akan melakukan yang terbaik untuk membantu!
 
 Jika Kamu mengalami masalah keamanan, silakan ikuti proses pelaporan yang dapat ditemukan di
-[sini](http://rubyonrails.org/security/).
+[sini](http://rails.id/security/).
 
 ## SHA-256
 
