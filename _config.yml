@@ -3,6 +3,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
   - jemoji
 exclude:
   - .github
@@ -27,6 +28,10 @@ permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
 category_dir: ""
 category_title_prefix: ""
+paginate: 10
+pagination:
+  previous: "&larr; Sebelumnya"
+  next: "Berikutnya &rarr;"
 feed:
   path: feed/atom.xml
 lang: id_ID
