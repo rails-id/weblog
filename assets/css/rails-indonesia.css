@@ -11,3 +11,13 @@ Additional, Reset by Rails Indonesia
   background-color: #c52f24;
   box-shadow: 0 0 10px #e83a2d, 0 0 5px #e83a2d;
 }
+
+/*
+ * modified for https://github.com/tholman/github-corners
+ */
+
+@media only screen and (max-device-width: 480px) {
+  .github-corner {
+    display: none;
+  }
+}
