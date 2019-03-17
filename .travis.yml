@@ -42,6 +42,6 @@ deploy:
   fqdn: weblog.rails.id
   on:
     branch: master
-    rvm: 2.6.0
+    rvm: 2.6.2
 notifications:
   email: false
