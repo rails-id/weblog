@@ -26,7 +26,7 @@ image: https://avatars.githubusercontent.com/u/46654718
 url: https://weblog.rails.id
 permalink: "/:year/:i_month/:i_day/:title/"
 markdown: kramdown
-category_dir: ""
+category_dir: "categories"
 category_title_prefix: ""
 paginate: 10
 pagination:
