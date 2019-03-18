@@ -9,14 +9,15 @@ exclude:
   - .github
   - .idea
   - .vscode
+  - CNAME
+  - LICENSE
   - Gemfile
   - Gemfile.lock
+  - Rakefile
   - README.md
-  - CNAME
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
   - GUIDELINES.md
-  - Rakefile
   - deploy_key
   - deploy_key.enc
   - deploy_key.pub
